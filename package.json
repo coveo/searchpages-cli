@@ -1,0 +1,37 @@
+{
+  "name": "coveo-searchpages-cli",
+  "version": "0.0.1",
+  "description": "Command line tool to package and deploy Hosted Search Pages to the Coveo Cloud",
+  "main": "src/main.js",
+  "keywords": [
+    "coveo",
+    "cloud",
+    "search pages",
+    "hosted search pages",
+    "hsp",
+    "json"
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "md5": "^2.2.1",
+    "node-sass": "^4.9.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coveo/searchpages-cli.git"
+  },
+  "author": "Jerome Devost <jdevost@gmail.com> (https://github.com/jdevost)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coveo/searchpages-cli/issues"
+  },
+  "bin": {
+    "update-searchpage": "client-global.js"
+  },
+  "homepage": "https://github.com/coveo/searchpages-cli#readme"
+}
