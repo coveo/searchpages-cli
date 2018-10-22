@@ -5,8 +5,8 @@ A simple Command line tool to package and update Search Pages into a Coveo organ
 
 ## Available documentation
 
-?? Swagger to the Rest api
-?? Online doc to Search Pages
+- [Online Help for Search Pages](https://docs.coveo.com/en/1656/)
+- [Rest API for search pages](https://platform.cloud.coveo.com/docs?api=SearchApi#!/Organizations/put_rest_organizations_organizationId_pages_id)
 
 ## Contributing to this project
 - Branch
