@@ -10,6 +10,21 @@ let generatePage = (PAGE_FOLDER) => {
   });
 
   let html = fs.readFileSync(PAGE_FOLDER + '/page.html');
+  // Replace <template id="x"/> by the file templates/x.html
+  html = ('' + html).replace(/<template\s+id="\w+"\s*\/?\s*>/g, templateTag => {
+    let templateId = '';
+    if (/\bid="(\w+)"/.test(templateTag)) {
+      templateId = RegExp.$1;
+      let templateCode = null;
+      try {
+        templateCode = fs.readFileSync(`${PAGE_FOLDER}/templates/${templateId}.html`);
+      } catch (e) {
+        console.log(e);
+      }
+      return templateCode || '';
+    }
+  });
+
   let css = hostedSearchPage.css;
   let script = fs.readFileSync(PAGE_FOLDER + '/page.js');
 
