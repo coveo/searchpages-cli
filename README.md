@@ -32,6 +32,9 @@ Or you can build it:
 ## What does it do?
 
 It packages the files `page.html`, `page.scss`, and `page.js` into one `generated.html` and uploads this generated file into your Coveo organization (defined in the config).
+
+Result templates can be externalized in their own folders `templates`.
+
 It will validate if the current version in the server matches the last one that was uploaded. Look in the warnings to see how to resolve conflicts.
 This is to avoid losing changes that were made by other contributors and changes done with the Interface Editor.
 
