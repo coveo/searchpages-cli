@@ -1,6 +1,6 @@
 {
   "name": "coveo-searchpages-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command line tool to package and deploy Hosted Search Pages to the Coveo Cloud",
   "main": "src/main.js",
   "keywords": [
@@ -14,7 +14,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "md5": "^2.2.1",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.11.0",
     "request": "^2.88.0"
   },
   "devDependencies": {},
