@@ -40,7 +40,7 @@ This is to avoid losing changes that were made by other contributors and changes
 
 ## Dependencies
 - Node.js
-- Node modules: `fs`, `md5`, `node-sass`
+- Node modules: `fs`, `md5`, `sass`
 
 ## Authors
 - Jérôme Devost (https://github.com/jdevost)

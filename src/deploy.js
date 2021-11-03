@@ -1,7 +1,7 @@
 const fs = require('fs'),
   md5 = require('md5'),
   request = require('request'),
-  sass = require('node-sass');
+  sass = require('sass');
 
 let generatePage = (PAGE_FOLDER) => {
   let hostedSearchPage = sass.renderSync({
